@@ -6,5 +6,7 @@ Rails.application.routes.draw do
   namespace :api do
     get "/first_animal_path" => "animals#display_first_animal"
     get "/all_animal_path" => "animals#display_all_animals"
+    get "/sound_caps" => "sounds#all_caps"
+    
   end
 end
