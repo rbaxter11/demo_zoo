@@ -1,0 +1,5 @@
+{
+  species: @first_animal.species,
+  age: @first_animal.age,
+  food: @first_animal.food,
+}
